@@ -1,0 +1,21 @@
+.Navigation{
+    p{
+        padding: 8px;
+        cursor: pointer;
+        color: grey;
+        transition: all .4s ease-in-out;
+        &:hover{
+            background: white;
+            color: black;
+        }
+    }
+
+    .Link{
+        text-decoration: none;
+        color: grey;
+        font-weight: 600;
+        &:hover{
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,149 @@
+.Profil{
+    display: flex;
+    .Profil-body{
+        display: flex;
+        padding: 30px;
+    }
+    .ProfilImg{
+        .img-content{
+            
+            img{
+                border:1px solid black;
+                border-radius: 5px;
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+        
+        .update{
+            background: black;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            transition: all .4s ease-in-out;
+            cursor:pointer;
+            &:hover{
+                background: grey;
+                color: black;
+            }
+        }
+        .update-img{
+            form{
+                input{
+                    background: black;
+                    color:white;
+                    padding:10px;
+                    font-weight: 700;
+                    border-radius: 5px;;
+                }
+                .btn-updates{
+                    margin-top: 5px;
+                    display: flex;
+                    align-items: center;
+
+                    button{
+                        transition: all .4s ease-in-out;
+                        cursor:pointer;
+                        width: 120px;
+                        font-weight: 700;
+                    }
+                   
+                    .valide{
+                        background: black;
+                        margin-right: 10px;
+                        margin-left: 10px;
+
+                        color: white;
+                        
+                            &:hover{
+                                background: white;
+                                color: black;
+                            }
+                    }
+                    .cancel{
+                        background: grey;
+                        color: black;
+                        margin-left: 10px;
+                        &:hover{
+                            background: black;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .profil-propos{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 30px;
+        .pro{
+            background: #333;
+            color:#fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .update{
+            background: #333;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            width: 200px;
+            transition: all .4s ease-in-out;
+            cursor:pointer;
+            &:hover{
+                background: grey;
+                color: #333;
+            }
+        }
+    }
+    .ProfilUpdate{
+        width: 100%;
+        margin-left:10px;
+        margin-top: 30px;
+        form{
+            input{
+                border-radius: 5px;
+                padding:10px;
+                width: 100%;
+                margin-top: 10px;
+                outline: none;
+                border: 1px solid grey;
+            }
+            .btn-update{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                button{
+                    cursor: pointer;
+                    font-weight: 800;
+                    font-size: 18px;
+                    width: 200px;
+                    margin-top: 10px;
+                    transition: all .4s ease-in-out;
+                   
+                }
+                .valide{
+                    background: black;
+                    color:white;
+                    &:hover{
+                        background-color: white;
+                        color:black;
+                    }
+                }
+                .cancel{
+                    background-color: white;
+                    color:black;
+                    &:hover{
+                        background-color: black;
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+}

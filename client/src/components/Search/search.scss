@@ -1,0 +1,28 @@
+.Search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    input{
+        padding: 5px;
+        outline: none;
+    }
+
+    button{
+        padding: 4px;
+        text-align: center;
+        margin-right: 4px;
+        font-size:20px;       
+        cursor: pointer;
+        background: white;
+        transition: all .4s ease-in-out;
+        &:hover{
+           color: red;   
+        }
+       
+
+    }
+}

@@ -1,0 +1,49 @@
+.Body{
+   .body-content{
+    //    display: flex;
+
+       .body-header{
+            text-align: center;
+            border-bottom: 1px solid grey;
+            .body-mg{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                margin-top: 5px;
+                img{
+                    width: 140px;
+                    height: 140px;
+                    box-shadow: 0 0 25px 10px rgb(194, 188, 188);
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                h1{
+                    text-transform: uppercase;
+                    margin-left: 20px;
+                }
+            }
+       }
+       .body-audio{
+            text-align: center;
+            width:100%;
+           
+           .playList{
+            width:100%;
+            height: 64vh;
+            overflow-y: scroll;
+            }
+            .playList::-webkit-scrollbar{
+                width: 7px;
+            }
+            .playList::-webkit-scrollbar-track{
+                background: #eee;
+                border-radius: 25px;
+            }
+            .playList::-webkit-scrollbar-thumb{
+                background: rgb(163, 162, 162);
+                border-radius: 25px;
+            }
+       }
+   }
+}
